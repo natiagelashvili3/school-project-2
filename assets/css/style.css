@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap");
+#intro header .button-container button {
+  padding: 11px 25px;
+  border: 1px solid #FF5300;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #FF5300;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  margin: 0 -15px;
+}
+
+#intro {
+  background: transparent linear-gradient(243deg, #FBFBFB 0%, #FCFCFC 21%, #FCFCFC 33%, #F6F7F9 45%, #F6F6F6 56%, #F6F7F8 70%, #F6F6F7 100%) 0% 0% no-repeat padding-box;
+}
+
+#intro header {
+  padding: 45px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#intro header .logo {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #222222;
+}
+
+#intro header nav ul li {
+  display: inline-block;
+}
+
+#intro header nav ul li a {
+  color: #222222;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 10px;
+  margin: 0 17px;
+}
+
+#intro header nav ul li a.active {
+  color: #FF5300;
+  border-bottom: 1px solid #FF5300;
+}
+
+#intro header nav ul li a:hover {
+  color: #FF5300;
+  border-bottom: 1px solid #FF5300;
+}
+
+#intro header .button-container button {
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#intro header .button-container button svg {
+  margin-right: 5px;
+  width: 15px;
+  fill: #FF5300;
+}
+
+#intro header .button-container button:hover {
+  background-color: #FF5300;
+  color: #fff;
+  cursor: pointer;
+}
+
+#intro header .button-container button:hover svg {
+  fill: #fff;
+}
+
+#intro .intro-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: -125px;
+}
+
+#intro .intro-content .content {
+  margin-top: 140px;
+  padding-right: 150px;
+}
+
+#intro .intro-content .content span {
+  color: #FF5300;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 20px;
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+}
+
+#intro .intro-content .content span:before {
+  content: '';
+  position: absolute;
+  background-color: #FF5300;
+  width: 25px;
+  height: 1px;
+  left: 0;
+  top: 37%;
+}
+
+#intro .intro-content .content h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 52px;
+  color: #222222;
+  margin-bottom: 25px;
+}
+
+#intro .intro-content .content p {
+  color: #555555;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#intro .intro-content .img img {
+  width: 550px;
+}
+/*# sourceMappingURL=style.css.map */
